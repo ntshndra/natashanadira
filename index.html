@@ -1,0 +1,124 @@
+<html>
+<head>
+<title> MY HOMEPAGE</title>
+</head>
+<body background="image/wallpaper.jpg">
+
+<br>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8B4513;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #DEB887;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="biodata.html">Biodata</a></li>
+  <li><a href="education.html">Education</a></li>
+  <li><a href="family.html">Family</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+</ul>
+<b><font face="Comic Sans MS"><font size="3">NATASHA NADIRA</font></b>  <image src="image/user.png" width="20" height="20">
+<br>
+<p align="center"><img src="image/greet.png" width="1030" height="180">
+
+<marquee>
+<font face="Comic Sans MS"><font size="5"><font color="Maroon">GET TO KNOW ME:)!!</font>
+</marquee>
+<p align="center"><b><font face="Trebuchet MS"><font size="16"><font color="IndianRed">HELLO,I'M NADIRA</font></b>
+<br>
+<p align="center"><font face="Monospace"><font size="4">This is my first website and here I'am going to tell a little bit story about <sup>Me</sup>, <sub>My Family</sub>, <sup>My Friends</sup> and <sub>My Life.</sub></font>
+<br>
+<p align="center"><image src="image/hello.png" width="200" height="200">
+<br>
+<style>
+a {
+  color: hotpink;
+}
+</style>
+</head>
+<body>
+
+<p align="center"><a href="https://www.facebook.com/profile.php?id=100065384340158&mibextid=LQQJ4d" target="_blank"><img src="image/fbicon.png" 
+width="40" height="40"></a> <a href="https://instagram.com/ntshndira_?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><img src="image/igicon.jpg" 
+width="40" height="40"></a>
+<br>
+<head> 
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content= 
+        "width=device-width,  
+        initial-scale=1.0" /> 
+
+  
+    <style> 
+        #clock { 
+            font-size: 30px;           
+            text-align: center; 
+	    width: 200px;                      
+            border-radius: 20px; 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+    <div id="clock">8:10:45</div> 
+  
+    <script> 
+        setInterval(showTime, 1000); 
+        function showTime() { 
+            let time = new Date(); 
+            let hour = time.getHours(); 
+            let min = time.getMinutes(); 
+            let sec = time.getSeconds(); 
+            am_pm = "AM"; 
+  
+            if (hour > 12) { 
+                hour -= 12; 
+                am_pm = "PM"; 
+            } 
+            if (hour == 0) { 
+                hr = 12; 
+                am_pm = "AM"; 
+            } 
+  
+            hour = hour < 10 ? "0" + hour : hour; 
+            min = min < 10 ? "0" + min : min; 
+            sec = sec < 10 ? "0" + sec : sec; 
+  
+            let currentTime = hour + ":"  
+                + min + ":" + sec + am_pm; 
+  
+            document.getElementById("clock") 
+                .innerHTML = currentTime; 
+        } 
+  
+        showTime(); 
+    </script>
+<br>
+<audio controls autoplay>
+  <source src="achild.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
